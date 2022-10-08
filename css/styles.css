@@ -1,0 +1,273 @@
+
+:root {
+--color-prymal: #F5F5F5;
+--color-text: #757575;
+--color-footer: #2F303A;
+--color-black: #212121;
+--color-accent: #2196F3;
+    }
+
+
+header {
+background-color: #FFFFFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--color-black)
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-prymal);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.03em}
+
+.list{
+list-style: none;
+} 
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+display: flex;
+max-width: 1200px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.conteiner-nav {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    gap: 50px;
+}
+   
+.conteiner-contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+ 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    width: 145px;
+    top: 24px;
+    color: #000000;
+    cursor: default;
+    text-decoration: none;
+}
+
+.logo-text {
+    color: var(--color-accent);
+}
+
+.address-header {
+    color: var(--color-text);
+    cursor: default;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.address-mail {
+    color: var(--color-accent);
+    cursor: default;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+
+/* sait-nav */
+
+.nav-link {
+text-decoration: none;
+cursor: default;
+color: var(--color-black);
+}
+
+.site-nav {
+    background-color: var(--color-prymal);
+    color: var(--color-black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    display: flex;
+    gap: 50px;
+    }
+
+    .contact-list {
+        display: flex;
+        gap: 50px;
+    }
+
+.sait-nav:hover, :focus {
+    color: var(--color-accent)F3;
+}
+
+.button:hover, :focus {
+    background-color: var(--color-accent);
+    color: var(--color-prymal)
+}
+
+/* Hero */
+
+.hero-container {
+text-align: center;
+max-width: 696px;
+margin: 200px 280px 452px;
+border: 1px solid #ECECEC;
+
+}
+
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: var(--color-prymal);
+    letter-spacing: 0.06em;
+    }
+
+.hero {
+    color: var(--color-prymal);
+    background-color: var(--color-footer);
+    line-height: 1.7;
+    text-align: center;
+    
+}
+
+.button-hero {
+background-color: var(--color-accent);
+color: var(--color-prymal);
+font-family: "Roboto";
+font-weight: 900;
+font-size: 16px;
+line-height: 1.88; 
+letter-spacing: 0.06em;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+.button-hero {
+cursor: pointer;
+}
+
+.section-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--color-black);
+text-align: center;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--color-black)}
+   
+.team {
+    background-color: #F5F4FA;
+
+}
+
+.team-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--color-black)
+}
+
+.team-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--color-text)
+    }
+
+.portfolio-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--color-black)
+}
+
+.portfolio-title :hover,
+:focus {
+    background-color:var(--color-accent);
+    color: var(--color-prymal);
+}
+
+.portfolio-button {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto";
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--color-black)
+}
+
+    .portfolio-button {
+        cursor: pointer;
+    }
+
+    .portfolio-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    }
+
+.footer-text {
+    color: var(--color-prymal);
+    letter-spacing: 0.03em;
+    }
+
+
+.page-footer {
+    color: var(--color-prymal);
+    background-color: #2F303A;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 1.74;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.text {
+  font-family: "Roboto",
+    sans-serif; 
+  font-style: normal;
+}
+
+.address {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: default;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+
+
