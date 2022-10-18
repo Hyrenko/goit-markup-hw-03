@@ -33,8 +33,13 @@ margin: 0;
 padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {margin: 0;
 }
 
 .container {
@@ -59,22 +64,21 @@ justify-content: space-between;
 }
 
  .container-nav {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
+display: flex;
+flex-grow: 1;
+align-items: center;
  }
 
 
  
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.3;
-    color: #000000;
-    cursor: default;
-    text-decoration: none;
-    margin-right: 94px;
+font-family: "Raleway", sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.3;
+color: #000000;cursor: default;
+text-decoration: none;
+margin-right: 94px;
 }
 
 .logo-text {
@@ -88,17 +92,17 @@ gap: 50px;
 padding: 0 15px}
 
 .address-header {
-    color: var(--color-text);
-    cursor: default;
-    text-decoration: none;
-    letter-spacing: 0.03em;
+color: var(--color-text);
+cursor: default;
+text-decoration: none;
+letter-spacing: 0.03em;
 }
 
 .address-mail {
-    color: var(--color-accent);
-    cursor: default;
-    text-decoration: none;
-    letter-spacing: 0.03em;
+color: var(--color-accent);
+cursor: default;
+text-decoration: none;
+letter-spacing: 0.03em;
 }
 
 
@@ -111,52 +115,51 @@ color: var(--color-black);
 }
 
 .site-nav {
-    display: flex;
-    color: var(--color-black);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    gap: 50px;
+display: flex;
+color: var(--color-black);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+gap: 50px;
     }
 
 
 
 .sait-nav:hover, :focus {
-    color: var(--color-accent)F3;
+color: var(--color-accent)F3;
 }
 
 .button:hover, :focus {
-    background-color: var(--color-accent);
-    color: var(--color-prymal)
+background-color: var(--color-accent);
+color: var(--color-prymal)
 }
 
 /* Hero */
 
 .hero-section {
 background-color: var(--color-footer);
+padding: 200px 0;
 }
 
 .hero-title {
-    margin: 0 auto 30px;
-    width: 700px;
-    display: flex;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.3;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
-    }
+margin: 0 auto 30px;
+width: 700px;
+display: flex;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.3;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+}
 
 .hero-container {
-    margin: auto;
-    width: 1200px;
-    height: 600px;
-    display: flex;
-    color: var(--color-prymal);
-    line-height: 1.7;
-    padding: 200px 210px 15px
-    }
+margin: auto;
+width: 1200px;
+display: flex;
+color: var(--color-prymal);
+line-height: 1.7;
+}
 
 .button-hero {
 width: 216px;
@@ -181,7 +184,7 @@ cursor: pointer;
 
 .section-text {
 display: flex;
-padding: 94px 0;
+padding-top: 94px;
 }
 
 .title-list {
@@ -190,17 +193,26 @@ flex-grow: 1;
 gap: 30px;
 }
 
+.tagline {
+margin-top: 10px;
+line-height: 1.71;
+}
+
+
+
 .container-title {
 margin: 0 auto ;
 width: 1200px;
 height: 100px;
 display: flex;
 flex-grow: 1;
+padding: 0 15px;
 }
 
 .section-container {
 max-width: 1200px;
-margin: 0 auto;  
+margin: 0 auto; 
+padding: 0 15px;
 }
 
 .section-title {
@@ -221,14 +233,14 @@ gap: 30px;
 }
 
 .section-work {
-padding: 94px 0;
+padding-top: 94px;
 }
 
 .team-container{
 width: 1200px;
 background-color: #F5F4FA;;
 margin: 0 auto;
-padding: 0 15px
+padding: 0 15px;
 }
 
 .title {
@@ -240,7 +252,7 @@ color: var(--color-black)}
    
 .team {
 background-color: #F5F4FA;
-padding: 94px 0;
+padding-top: 94px;
 }
 
 .imeg-text {
@@ -301,7 +313,7 @@ color: var(--color-black)
 }
 
 .section-portfolio {
-margin: 94px 0;
+padding: 94px 0;
 }
 
 .portfolio-title :hover,
@@ -361,7 +373,6 @@ letter-spacing: 0.03em;
 .footer-container {
 width: 1200px;
 margin: 0 auto;
-background-color: var(--color-footer);
 }
 
 .address {
@@ -389,9 +400,11 @@ letter-spacing: 0.03em;
 font-family: "Roboto",
 sans-serif; 
  font-style: normal;
+ margin-top: 20px;
 }
 
 .address {
+margin-top: 9px;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 cursor: default;
@@ -410,16 +423,24 @@ font-style: normal;
 letter-spacing: 0.03em;
 }
 
-.net-list {
+.icon-footer {
+
+}
+
+.icon-item {
+
+}
+
+.icon-list {
 display: flex;
 justify-content: center;
 gap: 10px;
 }
 
-.net-link {
+.icon-link {
 width: 44px;
 height: 44px;
-background-color: blue;
+background-color: red;
 border-radius: 50%;
 }
 
